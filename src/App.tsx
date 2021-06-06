@@ -1,12 +1,11 @@
 import React from 'react';
-import LoginForm from "./components/loginPage";
-import './App.css';
+import MainPage from './components/mainPage';
 
 function App() {
   return (
-    <div className="App">
-      <LoginForm />
-    </div>
+    <>
+      <MainPage />
+    </>
   );
 }
 

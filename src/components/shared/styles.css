@@ -1,0 +1,11 @@
+.button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.buttonLabel {
+  font-family: 'Open Sans', sans-serif;
+}

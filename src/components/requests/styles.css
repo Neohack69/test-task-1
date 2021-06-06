@@ -1,0 +1,41 @@
+.requestsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 16px;
+  max-width: 50vw;
+}
+
+.buttonsWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  width: 100%;
+}
+
+.cardItemsList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  padding: 16px;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+}
+
+.cardItem {
+  width: 100%;
+}
+
+.requestsHeaderWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.requestsHeaderItem {
+  width: 100%;
+}
+
+.requestCards {
+  width: 100%;
+}
