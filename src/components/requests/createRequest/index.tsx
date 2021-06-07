@@ -19,6 +19,7 @@ const CreateRequest: React.FunctionComponent<CreateRequestType> = ({
 
   const onCreateSubmitForm = (event: any) => {
     event.preventDefault();
+    if (newDate === '' || newAddress === '') return;
     if (addCard) {
       addCard(newDate, newAddress);
     }
