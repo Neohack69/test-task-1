@@ -43,7 +43,6 @@ const MainPage: React.FunctionComponent<MainPagePropsType> = ({
     switch (currentPage) {
       case APP_PAGE.LOGIN:
         return <LoginForm
-          setNextPage={ setNextPage }
           checkPassword={ checkPassword }
           getRequestsData={ getRequestsData }
         />;
@@ -64,7 +63,6 @@ const MainPage: React.FunctionComponent<MainPagePropsType> = ({
         />;
       case APP_PAGE.REQUESTS:
         return <RequestsPage
-          getRequestsData={ getRequestsData }
           cards={ cards }
           logout={ logout }
           setNextPage={ setNextPage }
